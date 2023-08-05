@@ -2,7 +2,7 @@
 Raduis=int(input("Enter raduis"))
 def squareAreaAndPerimeter(Raduis):
     Perimeter=Raduis*4
-    Area= Raduis*Raduis
+    Area= Raduis**Raduis
     return print("perimeter:",Perimeter,", Area:",Area)
 
 (squareAreaAndPerimeter(Raduis))
