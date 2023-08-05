@@ -1,21 +1,21 @@
 
-raduis=int(input("Enter raduis"))
-def squareAreaAndPerimeter(raduis):
-    Perimeter=2*3.14*raduis
-    Area= 2*3.14*raduis*raduis
+Raduis=int(input("Enter raduis"))
+def squareAreaAndPerimeter(Raduis):
+    Perimeter=Raduis*4
+    Area= Raduis*Raduis
     return print("perimeter:",Perimeter,", Area:",Area)
 
-(squareAreaAndPerimeter(raduis))
+(squareAreaAndPerimeter(Raduis))
 print('****************************')
-height=int(input("Enter height"))
-base=int(input("Enter base"))
-hypo=int(input("Enter hypo"))
+Height=int(input("Enter height"))
+Base=int(input("Enter base"))
+Hypo=int(input("Enter hypo"))
 
-def TriangleAreaAndPerimeter(height,base,hypo):
- Perimeter=base+height+hypo
- Area= 0.5*height*base
+def TriangleAreaAndPerimeter(Height,Base,Hypo):
+ Perimeter=Base+Height+Hypo
+ Area= 0.5*Height*Base
  return print("perimeter:",Perimeter,", Area:",Area)
 
 
 
-(TriangleAreaAndPerimeter(height,base,hypo))
+(TriangleAreaAndPerimeter(Height,Base,Hypo))
