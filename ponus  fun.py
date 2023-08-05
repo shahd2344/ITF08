@@ -1,4 +1,4 @@
-
+"""
 Raduis=int(input("Enter raduis"))
 def squareAreaAndPerimeter(Raduis):
     Perimeter=Raduis*4
@@ -18,4 +18,4 @@ def TriangleAreaAndPerimeter(Height,Base,Hypo):
 
 
 
-(TriangleAreaAndPerimeter(Height,Base,Hypo))
+(TriangleAreaAndPerimeter(Height,Base,Hypo))"""
