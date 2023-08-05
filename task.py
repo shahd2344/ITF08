@@ -1,19 +1,47 @@
 raduis=int(input("Enter raduis"))
 def circleArea(Raduis):
-    Area= 2*3.14*(Raduis**2)
-    return print(" Area:",Area)
-circleArea(raduis)
+    Area =  3.14*(Raduis**2)
+    print( "Area=",Area)
+    if Area >= 10:
+        print("Area is big")
+    elif Area >0 & Area <10:
+        print("small")
+    else:
+        print("invalid")
+   # print(Condition(Area))
+print(circleArea(raduis))
 side=int(input("Enter side"))
 def squareArea (Side):
-    Area= Side**2
-    return print("Area:",Area)
-squareArea(side)
+  Area =(Side ** 2)
+  print(  "Area=", Area)
+  if Area >=10 :
+   print("Area is big")
+  elif Area>0 & Area<10 :
+    print("small")
+  else:
+    print("invalid")
+ # print(Condition(Area))
+print(squareArea(side))
 Height=int(input("Enter height"))
 Base=int(input("Enter base"))
 
 def TriangleArea(Height,Base):
+  Area= 0.5 * Height * Base
+  print( "Area= ",Area)
+ # print(Condition(Area))
+  if Area >= 10:
+    print("Area is big")
+  elif Area > 0 & Area < 10:
+    print("small")
+  else:
+    print("invalid")
 
- Area= 0.5*Height*Base
- return print(" Area:",Area)
+print(TriangleArea(Height,Base))
 
-TriangleArea(Height,Base)
+def Condition (Area):
+    if Area>=10 :
+        print("Area is big")
+    elif Area>0 & Area<10 :
+        print("small")
+    else:
+        print("invalid")
