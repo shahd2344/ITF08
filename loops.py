@@ -51,17 +51,17 @@ def main_menu():
         elif choice == '2':
             num1 = int(input("Enter the first number: "))
             num2 = int(input("Enter the second number: "))
-            result = sum(num1, num2)
+            result = subtract(num1, num2)
             print("Subtraction:", result)
         elif choice == '3':
             num1 = int(input("Enter the first number: "))
             num2 = int(input("Enter the second number: "))
-            result = subtract(num1, num2)
+            result = multiply(num1, num2)
             print("Multiplication:", result)
         elif choice == '4':
             num1 = int(input("Enter the first number: "))
             num2 = int(input("Enter the second number: "))
-            result = multiply(num1, num2)
+            result = divide(num1, num2)
             print("Division:", result)
         elif choice == '5':
             base = int(input("Enter the base of the triangle: "))
