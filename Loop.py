@@ -13,3 +13,4 @@ for i in range(0,num_of_std):
     print("average=",round(sum / len(student_marks),2))
     print("max=",max(student_marks))
     print("min=",min(student_marks))
+    dic={4:"sss","d":"ggg"}
