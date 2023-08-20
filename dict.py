@@ -31,7 +31,10 @@ while True:
       print("remaining quantity=",product_qty)
     elif selection == 4:
         product_number = input("Enter Product Number :")
-        del product["id"]
 
+        for i in products:
+         if i['id'] == product_number:
+             products.remove(i)
+             print("deleted")
     else:
         exit()
